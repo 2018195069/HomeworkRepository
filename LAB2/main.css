@@ -1,0 +1,10 @@
+/*External Style sheet */
+
+body {background-color: #0F1111; color: white; font-family: arial, helvetica, sans-serif;}
+h2 {text-align: center;}
+.signin { background-color: rgb(218, 199, 251); border: 2px solid white; border-style: ridge; font-size: 0.9em; }
+.signup {background-color: aliceblue; border-style: ridge; }
+.main {text-align: center;}
+a {text-decoration: none;}
+h4 {width: 15%; height: 50px; }
+.button {text-align: center;}
