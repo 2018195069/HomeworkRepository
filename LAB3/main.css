@@ -1,0 +1,117 @@
+/*External Style sheet */
+
+body {background-color: #0F1111; color: white; font-family: arial, helvetica, sans-serif;}
+h2 {text-align: center;}
+.signin { background-color: aliceblue; border: 2px solid white; border-style: ridge; font-size: 0.9em; }
+.signup {background-color: aliceblue; border-style: ridge; }
+.mainpage{background-color: aliceblue; border-style: ridge; }
+.main {text-align: center;}
+a {text-decoration: none;}
+
+.banner
+{
+    width: 100px; height: 15px; text-align: center; 
+    padding: 0.5em; margin:1em; border-style: solid; border-color: white; 
+}
+.button {text-align: center;}
+
+
+
+.header
+{
+    position:relative; left: 0px; right: 0px; margin-left: auto; margin-right: auto;
+    width: 100px; height: 15px; text-align: center; 
+    padding: 0.5em;  border-style: solid; border-color: white; 
+    animation-name: movingtext; animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes movingtext
+{
+    from {transform: translate(-410px, 0px);}
+    25% {transform: translate(-200px, 0px);}
+    50% {transform: translate(0px, 0px);}
+    75% {transform: translate(200px, 0px);}
+    to {transform: translate(410px, 0px);}
+}
+
+.product
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.product>div
+{
+    width: 300px;
+    height:210px;
+    margin: 10px auto;
+    padding: 0px;
+    text-align: center;
+    line-height: 75px;
+    border: white solid;
+    justify-content: center;
+}
+.text
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text>h4
+{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+}
+
+img
+{
+    width: 250px;
+    height: 175px;
+    margin-top: 10px;
+}
+.product1{  transition: transform 2s; }
+.product3{  transition: transform 2s; }
+
+.product1:hover{ transform: rotate(360deg);}
+.product3:hover{ transform: scale(1.2,1.2);}
+
+.navigation_bar
+{
+    display: flex;
+    width: 1020px;
+    justify-content: center;
+    border: solid white;
+}
+
+.navigation_bar ul
+{    
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_item
+{   
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px;
+}
+.nav_item a
+{
+    color: white;
+    text-decoration: none;
+
+}
+.nav_item:hover {border: solid white;}
+body {width: 1020px; margin: 0 auto;}
