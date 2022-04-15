@@ -57,18 +57,9 @@ img
     flex-direction: row;
     flex-wrap: wrap;
     border: solid white;
-}
-
-.navigation_bar ul
-{    
-    list-style: none;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
     margin: 1.5% auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav_item
@@ -125,13 +116,13 @@ img
 }
 
 @media screen and (max-width : 480px){
-    .navigation_bar ul, .main{
+    .navigation_bar, .main{
         flex-direction: column;
     }
 }
 
 @media screen and (max-width : 800px){
-    .navigation_bar ul{
+    .navigation_bar{
         flex-direction: column;
     }
 }
