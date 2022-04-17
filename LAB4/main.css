@@ -5,7 +5,8 @@ h2 {text-align: center;}
 .signin { background-color: aliceblue; border: 2px solid white; border-style: ridge; font-size: 0.9em; }
 .signup {background-color: aliceblue; border-style: ridge; }
 .mainpage{background-color: aliceblue; border-style: ridge; }
-.main {text-align: center;}
+.login_main {text-align: center;}
+.signup_main {text-align: center;}
 a {text-decoration: none;}
 
 .banner
@@ -87,6 +88,7 @@ img
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
+    text-align: center;
 }
 .dod
 {
