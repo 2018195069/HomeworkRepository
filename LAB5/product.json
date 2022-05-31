@@ -1,0 +1,39 @@
+
+    [
+    {
+        "name" : "camera",
+        "price" : "$100",
+        "type" : "electronics",
+        "image" : "camera.jpg"
+    },
+    {
+        "name": "iphone",
+        "price" : "$200",
+        "type" : "electronics",
+        "image" : "iphone.png"
+    },
+    {
+        "name" : "dress",
+        "price" : "$100",
+        "type" : "dresses",
+        "image" : "dresses.png"
+    },
+    {
+        "name" : "skirt",
+        "price" : "$50",
+        "type" : "dresses",
+        "image" : "skirt.png"
+    },
+    {
+        "name" : "ipad",
+        "price" : "$1000",
+        "type" : "electronics" ,
+        "image" : "ipad.png"
+    },
+    {
+        "name" : "jeans",
+        "price" : "$80",
+        "type" : "dresses",
+        "image" : "jeans.png"
+    }
+]
