@@ -1,0 +1,3 @@
+!pip install ipywidgets  # for vscode
+!pip install git+https://git@github.com/SKTBrain/KoBERT.git@master
+
